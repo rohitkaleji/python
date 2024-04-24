@@ -1,0 +1,3184 @@
+-----------------------------------------------------------
+STRING AND OPERATORS:
+
+x="Strings" 
+print(len(x)) 
+print(x[0]) 
+print(x[1]) 
+print(x[2]) 
+print(x[3]) 
+print(x[4]) 
+print(x[5]) 
+print(x[6]) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+7 
+S 
+t 
+r 
+i 
+n 
+g 
+s 
+Process finished with exit code 0 
+a="Nikita Kanchan" 
+for a in "Nikita Kanchan": 
+print(a) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+N 
+i 
+k 
+i 
+t 
+a 
+K 
+a 
+n 
+c 
+h 
+a 
+n 
+Process finished with exit code 0 
+x="Today is a good day" 
+if "good" in x: 
+print("'good' in there in x") 
+if "nice" not in x: 
+print("'nice' in not there in x") 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+'good' in there in x 
+'nice' in not there in x 
+Process finished with exit code 0 
+x="Python Class" 
+print(x[5:]) 
+print(x[:3]) 
+print(x[1:9]) 
+print(x[-5:-2]) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+n Class 
+Pyt 
+ython Cl 
+Cla 
+Process finished with exit code 0 
+x="  apples and mangoes" 
+print(x.strip()) 
+print(x.upper()) 
+print(x.lower()) 
+print(x.replace("e", "s")) 
+x="apples and mangoes" 
+print(x.split(" ")) 
+apples and mangoes 
+  APPLES AND MANGOES 
+  apples and mangoes 
+  applss and mangoss 
+['apples', 'and', 'mangoes'] 
+ 
+Process finished with exit code 0 
+ 
+a = "my name is nikita" 
+x = a.capitalize() 
+print (x) 
+ 
+x = a.encode() 
+print(x) 
+ 
+x = a.find("name") 
+print(x) 
+ 
+a = "My Name Is Nikita" 
+x = a.casefold() 
+print(x) 
+ 
+a = "W\to\tr\tl\td" 
+x = a.expandtabs(3) 
+print(x) 
+ 
+a="56432" 
+x=a.isalnum() 
+print(x) 
+ 
+a="Hello World" 
+x=a.swapcase() 
+print(x) 
+ 
+a = "student" 
+print(a.zfill(13)) 
+ 
+a = "Blue colour" 
+x = a.replace("Blue", "Red") 
+print(x) 
+ 
+mydict = {83: 74} 
+a = "Sam" 
+print(a.translate(mydict)) 
+ 
+a = "Fruits and vegetables" 
+x = a.startswith("Fruits") 
+print(x) 
+ 
+txt = "  lab  " 
+x = txt.isspace() 
+print(x) 
+ 
+Dict = {"name": "Nikita", "college": "Thadomal"} 
+Separator = " and " 
+x = Separator.join(Dict) 
+print(x) 
+ 
+a = "GREEN" 
+b="blue" 
+print(a.isupper()) 
+print(b.isupper()) 
+ 
+a = "987" 
+x = a.isnumeric() 
+print(x) 
+ 
+a = "python" 
+x = a.isidentifier() 
+print(x) 
+ 
+a = "I like the colour Blue. Blue colour has many shades." 
+x = a.count("Blue") 
+y = a.count("colour") 
+print(x) 
+print(y) 
+ 
+txt = "333" 
+x = txt.isascii() 
+print(x) 
+ 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+My name is nikita 
+b'my name is nikita' 
+3 
+my name is nikita 
+W  o  r  l  d 
+True 
+hELLO wORLD 
+000000student 
+Red colour 
+Jam 
+True 
+False 
+name and college 
+True 
+False 
+True 
+True 
+2 
+2 
+True 
+Process finished with exit code 0 
+Operators: 
+a=10 
+b=5 
+print(a+b) 
+print(a-b) 
+print(a%b) 
+print(a*b) 
+print(a//b) 
+print(a**b) 
+print(a/b) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+15 
+5 
+0 
+50 
+2 
+100000 
+2.0 
+Process finished with exit code 0 
+ 
+x = 7 
+y = 22 
+ 
+print(x < y) 
+print(x > y) 
+ 
+print(x == y) 
+print(x != y) 
+ 
+print(x <= y) 
+print(x >= y) 
+ 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+True 
+False 
+False 
+True 
+True 
+False 
+ 
+Process finished with exit code 0 
+ 
+x=17 
+ 
+print (x) 
+x += 3 
+print(x) 
+x -= 5 
+print(x) 
+x *= 6 
+print(x) 
+x /= 5 
+print(x) 
+x %= 3 
+print(x) 
+x //= 2 
+print(x) 
+ 
+x=3 
+ 
+x **= 3 
+print(x) 
+x >>=2 
+print(x) 
+x <<= 3 
+print(x) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+17 
+20 
+15 
+90 
+18.0 
+0.0 
+0.0 
+27 
+6 
+48 
+Process finished with exit code 0 
+--------------------------------------------------------------------------------
+ASSIGNMENT 3: Lists and Tuples 
+ 
+LISTS: 
+list1=["Nikita","Kanika","Saloni"] 
+list2=[14,62,89] 
+list3=[19,18,20] 
+list4=["IT","EXTC","AI DS"] 
+list5=["Khar","Thane","Andheri"] 
+ 
+#removing an item from list 
+list1.remove("Nikita") 
+list2.remove(89) 
+list3.remove(19) 
+list4.remove("EXTC") 
+list5.remove("Thane") 
+print(list1) 
+print(list2) 
+print(list3) 
+print(list4) 
+print(list5) 
+ 
+#inserting elements in the lists 
+list1=["Nikita","Kanika","Saloni"] 
+list2=[14,62,89] 
+list3=[19,18,20] 
+list4=["IT","EXTC","AI DS","Computers"] 
+list5=["Khar","Thane","Andheri"] 
+ 
+list5.insert(1,"Bandra") 
+print(list5) 
+list4.append("Computers") 
+print(list4) 
+ 
+#Replacing elements in the list 
+list1[2]="Geeta" 
+list2[1]=22 
+list3[0]=17 
+list4[3]="IT" 
+list5[2]="Goregaon" 
+ 
+print(list1) 
+print(list2) 
+print(list3) 
+print(list4) 
+print(list5) 
+ 
+#clearing the list 
+list1.clear() 
+print(list1) 
+list2.clear() 
+print(list2) 
+list3.clear() 
+print(list3) 
+list4.clear() 
+print(list4) 
+list5.clear() 
+print(list5) 
+ 
+#Deleting the list 
+list1=["Nikita","Kanika","Saloni"] 
+list2=[14,62,89] 
+list3=[19,18,20] 
+list4=["IT","EXTC","AI DS"] 
+list5=["Khar","Thane","Andheri"] 
+ 
+del list1 
+del list2 
+del list3 
+del list4 
+del list5 
+ 
+#apply 6 methods to each list 
+ 
+list1=["Nikita","Kanika","Saloni"] 
+x=list1.copy() 
+print(x) 
+ 
+list1=["Nikita","Kanika","Saloni"] 
+x=list1.count("Nikita") 
+print(x) 
+ 
+list1=["Nikita","Kanika","Saloni"] 
+x=list1.pop(1) 
+print(x) 
+ 
+list1=["Nikita","Kanika","Saloni"] 
+list1.reverse() 
+print(list1) 
+ 
+list1=["Nikita","Kanika","Saloni"] 
+x=list1.index("Saloni") 
+print(x) 
+ 
+list1=["Nikita","Kanika","Saloni"] 
+list1.remove("Kanika") 
+print(list1) 
+ 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+['Kanika', 'Saloni'] 
+[14, 62] 
+[18, 20] 
+['IT', 'AI DS'] 
+['Khar', 'Andheri'] 
+['Khar', 'Bandra', 'Thane', 'Andheri'] 
+['IT', 'EXTC', 'AI DS', 'Computers', 'Computers'] 
+['Nikita', 'Kanika', 'Geeta'] 
+[14, 22, 89] 
+[17, 18, 20] 
+['IT', 'EXTC', 'AI DS', 'IT', 'Computers'] 
+['Khar', 'Bandra', 'Goregaon', 'Andheri'] 
+[] 
+[] 
+[] 
+[] 
+[] 
+['Nikita', 'Kanika', 'Saloni'] 
+1 
+Kanika 
+['Saloni', 'Kanika', 'Nikita'] 
+2 
+['Nikita', 'Saloni'] 
+Process finished with exit code 0 
+TUPLES: 
+branch=("EXTC","COMPS","IT","AIDS") 
+print(branch) 
+#Tuples allow duplicate values 
+branch=("IT","COMPS","COMPS","EXTC","EXTC","AIDS") 
+print(branch) 
+print(type(branch)) 
+print(len(branch)) 
+fruit = ("mango",) 
+print(type(fruit)) 
+#NOT a tuple 
+fruits = ("mango") 
+print(type(fruits)) 
+ 
+#Tuples containing different data types 
+Eg = (92, False, "xyz", 40, "colour") 
+print(Eg) 
+ 
+#To access the tuple items 
+branch=("IT","COMPS","COMPS","EXTC","EXTC","AIDS") 
+print(branch[0]) 
+print(branch[2]) 
+print(branch[4]) 
+print(branch[-6]) 
+print(branch[-4]) 
+print(branch[2:5]) 
+print(branch[2:]) 
+print(branch[:4]) 
+print(branch[-4:-1]) 
+ 
+if "IT" in branch: 
+    print("Yes, 'IT' is in the branch tuple") 
+    print(len(branch)) 
+ 
+#Convert the tuple into a list to be able to change it 
+branch=("IT","COMPS","COMPS","EXTC","EXTC","AIDS") 
+print(branch) 
+ 
+branch1 = list(branch) 
+print(branch1) 
+ 
+branch1[1] = "AI" 
+print(branch1) 
+ 
+branch = tuple(branch1) 
+print(branch) 
+ 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+('EXTC', 'COMPS', 'IT', 'AIDS') 
+('IT', 'COMPS', 'COMPS', 'EXTC', 'EXTC', 'AIDS') 
+<class 'tuple'> 
+6 
+<class 'tuple'> 
+<class 'str'> 
+(92, False, 'xyz', 40, 'colour') 
+IT 
+COMPS 
+EXTC 
+IT 
+COMPS 
+('COMPS', 'EXTC', 'EXTC') 
+('COMPS', 'EXTC', 'EXTC', 'AIDS') 
+('IT', 'COMPS', 'COMPS', 'EXTC') 
+('COMPS', 'EXTC', 'EXTC') 
+Yes, 'IT' is in the branch tuple 
+6 
+('IT', 'COMPS', 'COMPS', 'EXTC', 'EXTC', 'AIDS') 
+['IT', 'COMPS', 'COMPS', 'EXTC', 'EXTC', 'AIDS'] 
+['IT', 'AI', 'COMPS', 'EXTC', 'EXTC', 'AIDS'] 
+('IT', 'AI', 'COMPS', 'EXTC', 'EXTC', 'AIDS') 
+Process finished with exit code 0 
+-------------------------------------
+ASSIGNMENT 4: Sets 
+SETS: 
+
+Team={"Nikita","Saloni","Kanika","Kairavi","Nirjara"} 
+print(Team) 
+print(len(Team)) 
+print(type(Team)) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'Nirjara', 'Saloni', 'Nikita', 'Kanika', 'Kairavi'} 
+5 
+<class 'set'> 
+Process finished with exit code 0 
+#Duplicate Values are not Considered 
+Team={"Nikita","Nikita","Saloni","Kanika","Kairavi","Nirjara"} 
+print(Team) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'Nikita', 'Saloni', 'Nirjara', 'Kanika', 'Kairavi'} 
+Process finished with exit code 0 
+#Using the set() constructor to make a set: 
+Team=set(("apple","mango","guava","banana")) 
+print(Team) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'guava', 'apple', 'mango', 'banana'} 
+Process finished with exit code 0 
+#Access Item of sets 
+Team={"apple","guava","pineapple","mango","pear"} 
+for x in Team: 
+    print(x) 
+ 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+guava 
+pineapple 
+mango 
+apple 
+pear 
+Process finished with exit code 0 
+ 
+#Add Item and sets 
+colour={"red","blue","green","yellow","purple"} 
+colour.add("brown") 
+colour.add("white") 
+print(colour) 
+ 
+colour2={"black","pink"} 
+colour.update(colour2) 
+print(colour) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'green', 'purple', 'yellow', 'white', 'brown', 'blue', 'red'} 
+{'pink', 'yellow', 'black', 'red', 'green', 'purple', 'white', 'brown', 'blue'} 
+Process finished with exit code 0 
+ 
+#Remove item 
+colour.remove("pink") 
+print(colour) 
+ 
+#Use discard() method 
+print(colour2) 
+colour2.discard(1) 
+print(colour2) 
+ 
+#Remove a random item by using the pop() method 
+print(colour) 
+x=colour.pop() 
+print(colour) 
+ 
+#he clear() method empties the set 
+print(colour2) 
+colour2.clear() 
+print(colour2) 
+#The del keyword will delete the set completely 
+del colour 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py" 
+{'purple', 'green', 'black', 'white', 'blue', 'red', 'brown', 'yellow'} 
+{'pink', 'black'} 
+{'pink', 'black'} 
+{'purple', 'green', 'black', 'white', 'blue', 'red', 'brown', 'yellow'} 
+{'green', 'black', 'white', 'blue', 'red', 'brown', 'yellow'} 
+{'pink', 'black'} 
+set() 
+Process finished with exit code 0 
+#Join two Sets 
+colour={"red","blue","green","yellow","purple"} 
+colour2={"black","pink"} 
+#The union() method returns a new set with all items from both sets 
+Final = colour.union(colour2) 
+print(Final) 
+#The update() method inserts the items in set2 into set1: 
+colour.update(colour2) 
+print(colour) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'pink', 'black', 'yellow', 'green', 'blue', 'purple', 'red'} 
+{'pink', 'black', 'yellow', 'green', 'blue', 'purple', 'red'} 
+Process finished with exit code 0 
+#Return a set that contains the items that exist in both set x, and set y: 
+names = {"Nikita", "Saloni", "Kairavi"} 
+print(names) 
+sports = {"tennis", "basketball", "swimming"} 
+print(sports) 
+z = names.intersection(sports) 
+print(z) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'Kairavi', 'Saloni', 'Nikita'} 
+{'swimming', 'basketball', 'tennis'} 
+set() 
+Process finished with exit code 0 
+#Keep the items that are not present in both sets: 
+a = {"circle", "square", "triangle"} 
+print(a) 
+b= {"red", "square", "blue"} 
+print(b) 
+a.symmetric_difference_update(b) 
+print(a) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'triangle', 'square', 'circle'} 
+{'red', 'blue', 'square'} 
+{'red', 'blue', 'triangle', 'circle'} 
+Process finished with exit code 0 
+#Remove the items that exist in both sets: 
+a = {"circle", "square", "triangle"} 
+print(a) 
+b= {"red", "square", "blue"} 
+print(b) 
+a.difference_update(b) 
+print(a) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'circle', 'triangle', 'square'} 
+{'square', 'blue', 'red'} 
+{'circle', 'triangle'} 
+Process finished with exit code 0 
+#Return False if one or more items are present in both sets: 
+x = {"car", "bus", "truck"} 
+y = {"green", "brown", "yellow"} 
+z = x.isdisjoint(y) 
+print(z) 
+#Return False if not all items in set x are present in set y: 
+x = {"car", "bus", "truck"} 
+y = {"green", "brown", "yellow","bus", "truck"} 
+z = x.issubset(y) 
+print(z) 
+#Return False if not all items in set y are present in set x: 
+x = {"car", "bus", "truck","yellow"} 
+y = {"green", "brown", "yellow"} 
+z = x.issuperset(y) 
+print(z) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+True 
+False 
+False 
+Process finished with exit code 0 
+#Compare 3 sets, and return a set with items that is present in all 3 sets: 
+x = {"car", "bus", "bicycle"} 
+y = {"dog", "car", "cat"} 
+z = {"car", "green", "red"} 
+x.intersection_update(y, z) 
+print(x) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'car'} 
+Process finished with exit code 0 
+DICTIONARIES: 
+x = { 
+"name": "Nikita", 
+"college": "Thadomal", 
+"age": 20 
+} 
+print(x) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'name': 'Nikita', 'college': 'Thadomal', 'age': 20} 
+Process finished with exit code 0 
+x = { 
+"name": "Nikita", 
+"college": "Thadomal", 
+"age": 20, 
+"age": 20 
+} 
+print(x) 
+print(len(x)) 
+print(type(x)) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'name': 'Nikita', 'college': 'Thadomal', 'age': 20} 
+3 
+<class 'dict'> 
+Process finished with exit code 0 
+y = dict(name = "Nikita", age = 20, occupation = "student") 
+print(y) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'name': 'Nikita', 'age': 20, 'occupation': 'student'} 
+Process finished with exit code 0 
+x = { 
+"name": "Nikita", 
+"college": "Thadomal", 
+"age": 20 
+} 
+print(x) 
+z = x.get("college") 
+print(z) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'name': 'Nikita', 'college': 'Thadomal', 'age': 20} 
+Thadomal 
+Process finished with exit code 0 
+x = { 
+"name": "Nikita", 
+"college": "Thadomal", 
+"age": 20 
+} 
+print(x) 
+x["occupation"] = "student" 
+print(x) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'name': 'Nikita', 'college': 'Thadomal', 'age': 20} 
+{'name': 'Nikita', 'college': 'Thadomal', 'age': 20, 'occupation': 'student'} 
+Process finished with exit code 0 
+x = { 
+"name": "Nikita", 
+"college": "Thadomal", 
+"age": 20 
+} 
+if "name" in x: 
+print("Yes, 'name' is one of the keys in the dictionary") 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+Yes, 'name' is one of the keys in the dictionary 
+Process finished with exit code 0 
+#Change Values 
+z = { "name": "nikita","year": 2004} 
+print (z) 
+z["year"] = 2018 
+print(z) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'name': 'nikita', 'year': 2004} 
+{'name': 'nikita', 'year': 2018} 
+Process finished with exit code 0 
+z = { "name": "nikita","year": 2004} 
+print (z) 
+z.popitem() 
+print(z) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'name': 'nikita', 'year': 2004} 
+{'name': 'nikita'} 
+Process finished with exit code 0 
+z = {"name": "nikita","occupation": "student", "year": 2004} 
+print (z) 
+del z["year"] 
+print(z) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'name': 'nikita', 'occupation': 'student', 'year': 2004} 
+{'name': 'nikita', 'occupation': 'student'} 
+Process finished with exit code 0 
+x = {"name": "nikita","occupation": "student","year": 2004} 
+print (x) 
+x.clear() 
+print(x) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'name': 'nikita', 'occupation': 'student', 'year': 2004} 
+{} 
+Process finished with exit code 0 
+x = {"name": "nikita","occupation": "student","year": 2004} 
+print (x) 
+for y in x: 
+print(x[y]) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'name': 'nikita', 'occupation': 'student', 'year': 2004} 
+nikita 
+student 
+2004 
+Process finished with exit code 0 
+x = {"name": "nikita","occupation": "student","year": 2004} 
+print (x) 
+for x, y in x.items(): 
+print(x, y) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'name': 'nikita', 'occupation': 'student', 'year': 2004} 
+name nikita 
+occupation student 
+year 2004 
+Process finished with exit code 0 
+x = {"name": "nikita","occupation": "student","year": 2004,"age": 20} 
+print(x) 
+mydict = dict(x) 
+print(mydict) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'name': 'nikita', 'occupation': 'student', 'year': 2004, 'age': 20} 
+{'name': 'nikita', 'occupation': 'student', 'year': 2004, 'age': 20} 
+Process finished with exit code 0 
+#Remove all elements  
+x = {"name": "nikita","occupation": "student","year": 2004,"age": 20} 
+x.clear() 
+print(x) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{} 
+Process finished with exit code 0 
+#Create a dictionary with 3 keys, all with the value 0: 
+x = ('key1', 'key2', 'key3') 
+y = 0 
+thisdict = dict.fromkeys(x, y) 
+print(thisdict) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"  
+{'key1': 0, 'key2': 0, 'key3': 0} 
+Process finished with exit code 0 
+--------------------------------------------------
+
+ASSIGNMENT 5:  Dictionary  
+x = {  
+"name": "Nikita",  
+"college": "Thadomal",  
+"age": 20  
+} 
+print(x)  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"   
+{'name': 'Nikita', 'college': 'Thadomal', 'age': 20}  
+Process finished with exit code 0  
+x = {  
+"name": "Nikita",  
+"college": "Thadomal",  
+"age": 20,  
+"age": 20  
+} print(x) 
+print(len(x)) 
+print(type(x))  
+   
+{'name': 'Nikita', 'college': 'Thadomal', 'age': 20}  
+3  
+<class 'dict'>  
+Process finished with exit code 0  
+y = dict(name = "Nikita", age = 20, occupation = "student") 
+print(y)  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"   
+{'name': 'Nikita', 'age': 20, 'occupation': 'student'}  
+Process finished with exit code 0  
+x = {  
+"name": "Nikita",  
+"college": "Thadomal",  
+"age": 20  
+} 
+print(x)  
+z = x.get("college") 
+print(z)  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"   
+{'name': 'Nikita', 'college': 'Thadomal', 'age': 20}  
+Thadomal  
+Process finished with exit code 0 
+x = {  
+"name": "Nikita",  
+"college": "Thadomal",  
+"age": 20  
+} 
+print(x)  
+x["occupation"] = "student" 
+print(x)  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"   
+{'name': 'Nikita', 'college': 'Thadomal', 'age': 20}  
+{'name': 'Nikita', 'college': 'Thadomal', 'age': 20, 'occupation': 'student'}  
+Process finished with exit code 0  
+x = {  
+"name": "Nikita",  
+"college": "Thadomal",  
+"age": 20  
+} if "name" in 
+x:  
+print("Yes, 'name' is one of the keys in the dictionary")  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"   
+Yes, 'name' is one of the keys in the dictionary  
+Process finished with exit code 0  
+#Change Values  
+z = { "name": "nikita","year": 2004} print (z) 
+z["year"] = 2018 print(z)  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"   
+{'name': 'nikita', 'year': 2004}  
+{'name': 'nikita', 'year': 2018}  
+Process finished with exit code 0  
+z = { "name": "nikita","year": 2004} 
+print (z)  
+z.popitem() 
+print(z)  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"   
+{'name': 'nikita', 'year': 2004}  
+{'name': 'nikita'}  
+Process finished with exit code 0  
+z = {"name": "nikita","occupation": "student", "year": 2004} 
+print (z) del z["year"] print(z)  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"   
+{'name': 'nikita', 'occupation': 'student', 'year': 2004}  
+{'name': 'nikita', 'occupation': 'student'} Process 
+f
+ inished with exit code 0  
+x = {"name": "nikita","occupation": "student","year": 2004} 
+print (x) x.clear() print(x)  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"   
+{'name': 'nikita', 'occupation': 'student', 'year': 2004}  
+{}  
+Process finished with exit code 0  
+x = {"name": "nikita","occupation": "student","year": 2004} 
+print (x) for y in x:     
+print(x[y])  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"   
+{'name': 'nikita', 'occupation': 'student', 'year': 2004} nikita  
+student  
+2004  
+Process finished with exit code 0  
+x = {"name": "nikita","occupation": "student","year": 2004} 
+print (x) for x, y in x.items():     
+print(x, y)  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"   
+{'name': 'nikita', 'occupation': 'student', 'year': 2004} 
+name nikita occupation student year 2004  
+Process finished with exit code 0  
+x = {"name": "nikita","occupation": "student","year": 2004,"age": 20} 
+print(x)  
+mydict = dict(x) 
+print(mydict)  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"   
+{'name': 'nikita', 'occupation': 'student', 'year': 2004, 'age': 20} {'name': 
+'nikita', 'occupation': 'student', 'year': 2004, 'age': 20}  
+Process finished with exit code 0  
+#Remove all elements   
+x = {"name": "nikita","occupation": "student","year": 2004,"age": 20} 
+x.clear() print(x)  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"   
+{}  
+Process finished with exit code 0  
+#Create a dictionary with 3 keys, all with the value 
+0: x = ('key1', 'key2', 'key3') y = 0  
+thisdict = dict.fromkeys(x, y) 
+print(thisdict)  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\assignments\file.py"   
+{'key1': 0, 'key2': 0, 'key3': 0}  
+
+
+--------------------------------------------------------------
+control loop and function:
+
+#The case for If statement:  
+a=input("Enter the first number:") b=input("Enter the Second number:") 
+if b > a:  
+print("In this case, b is greater than a")  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe"  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"   
+Enter the first number:2  
+Enter the Second number:54  
+In this case, b is greater than a  
+Process finished with exit code 0  
+num1=input("Enter the first number here:") 
+num2=input("Enter the second number here:") 
+if num2 > num1:  
+print("Here, num2 is greater than num1") 
+elif num2 == num1:  
+print("Here, num2 and num1 are equal")  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe"  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"   
+Enter the first number here:12  
+Enter the second number here:12  
+Here, num2 and num1 are equal  
+Process finished with exit code 0  
+num1=input("Enter the first number here:") 
+num2=input("Enter the second number here:") 
+if num2 > num1:  
+print("Here, num2 is greater than num1") 
+elif num2 == num1:     
+print("Here, num2 and 
+num1 are equal") else:  
+print("num1 is greater than num2")  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"   
+Enter the first number here:45  
+Enter the second number here:7  
+Here, num2 is greater than num1  
+Process finished with exit code 0  
+num1=input("Here input the first number:") num2=input("Here 
+input the Second number:")  
+print("num1") if num1 > num2 else print("=") if num1 == num2 else 
+print("num2")  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"   
+Here input the first number:22  
+Here input the Second number:22  
+=  
+Process finished with exit code 0  
+num1=input("Enter the first number here:") 
+num2=input("Enter the second number here:") 
+num3=input("Enter the third number here:") if 
+num1 > num2 and num3 > num1:  
+print("In this case, both conditions are true")  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"   
+Enter the first number here:17  
+Enter the second number here:12  
+Enter the third number here:25  
+In this case, both conditions are true  
+Process finished with exit code 0  
+num1=input("Enter the first number here:") 
+num2=input("Enter the second number here:") 
+num3=input("Enter the third number here:") if 
+num1 > num2 or num1 > num3:  
+print("At least one of the conditions is True")  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe"  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"   
+Enter the first number here:32  
+Enter the second number here:12  
+Enter the third number here:100  
+At least one of the conditions is True  
+Process finished with exit code 0  
+x=35 if x 
+> 10:  
+print("The number is above ten,") 
+if x > 20:     
+print("and is also 
+above 20") else:     
+not above 20.")  
+print("but is 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  The 
+number is above ten, and is also above 20  
+Process finished with exit code 0  
+z = 1 while z < 4:     
+print(z)     z += 1 else:  
+print("z is no longer 
+less than 4")  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe"  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"   
+1 2 3 z is no longer less 
+than 4  
+Process finished with exit code 0  
+colours = ["yellow", "green", "purple"] for 
+z in colours:  
+print(z)  
+for z in 
+"purple":     
+print(z)  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  yellow 
+green purple p u  
+r  
+p  
+l  
+e  
+Process finished with exit code 0  
+colours = ["yellow", "green", "purple"] for 
+z in colours:  
+print(z)     
+if 
+z == "green":         
+break  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  yellow 
+green  
+Process finished with exit code 0  
+#The range() function 
+for x in range(3, 
+9,2):  
+print(x)  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe"  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"   
+3  
+5 7  
+Process finished with exit code 0  
+for y in range(4):  
+print(y) else:  
+print("This is over now")  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe"  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"   
+0 1  
+2  
+3  
+This is over now  
+Process finished with exit code 0  
+adj = ["green", "durable", "Sleek"] 
+items = ["tree", "car", "wall"] for 
+x in adj:     
+for y in items:         
+print(x, y)  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  green 
+tree green car green wall durable tree durable car durable wall Sleek tree  
+Sleek car  
+Sleek wall  
+Process finished with exit code 0  
+FUNCTION  
+def my_func(fname):     
+print(fname + " Kanchan") 
+my_func("Nikita") 
+my_func("Ria") 
+my_func("Ahana")  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"   
+Nikita Kanchan  
+Ria Kanchan  
+Ahana Kanchan  
+Process finished with exit code 0  
+def my_func(sub3, sub2, sub1):     
+print("The second subject is " + sub2)  
+my_func(sub1 = "Physics", sub2 = "Chemistry", sub3 = "Biology")  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"   
+The second subject is Chemistry  
+Process finished with exit code 0  
+def my_func(**me):     
+print("My last name 
+is " + me["lname"]) my_func(fname = 
+"Nikita", lname = "Kanchan")  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"   
+My last name is Kanchan  
+Process finished with exit code 0  
+def my_func(colour = "blue"):     
+print("I like the colour " + colour) 
+my_func("green") my_func("red") 
+my_func() my_func("grey")  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"   
+I like the colour green  
+I like the colour red  
+I like the colour blue  
+I like the colour grey  
+Process finished with exit code 0  
+def tri_recursion(k):     
+if(k > 1):         
+result = k + tri_recursion(k - 1)         
+print(result)     
+else:         result = 
+0     
+return result print("\n\nThe 
+Results are:") tri_recursion(4)  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"   
+The Results are:  
+2  
+5 9  
+Process finished with exit code 0  
+x = lambda a : a + 4 
+print(x(10))  
+x = lambda a, b, c : a + b + c 
+print(x(2, 3, 10))  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe"  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"   
+14 15  
+Process finished with exit code 0  
+def myfunc(n):     
+return 
+lambda a : a * n mydoubler 
+= myfunc(12) mytripler = 
+myfunc(30) 
+print(mydoubler(10)) 
+print(mytripler(8))  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe"  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"   
+120  
+240  
+Process finished with exit code 0  
+def find_square(num):     
+result = num * num     
+return 
+result # function call square 
+= find_square(16) print('The 
+square is:',square)   
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe"  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"   
+The square is: 256  
+Process finished with exit code 0  
+def get_square(number):     
+return number * number for i 
+in range(6):  
+result = get_square(i)  
+print('The square of',i, '=',result)  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"   
+The square of 0 = 0 The 
+square of 1 = 1  
+The square of 2 = 4  
+The square of 3 = 9  
+The square of 4 = 16  
+The square of 5 = 25  
+Process finished with exit code 0  
+def factorial(n):     
+if n == 0:  
+return 
+1     
+else:  
+return n * factorial(n - 1)  
+n = int(input("Input a number to compute the factorial: ")) 
+print(factorial(n))  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe"  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"   
+Input a number to compute the factorial: 5  
+120  
+Process finished with exit code 0  
+def test_prime(n):     
+if (n == 1):  
+return False     elif 
+(n == 2):         
+return True     
+else:         
+for x in 
+range(2, n):             
+if 
+(n % x == 0):                 
+return False     return True 
+print(test_prime(19))  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe"  
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  True  
+Process finished with exit
+------------------------------------
+classes and objects:
+
+class Person: 
+def __init__(self, name, age): 
+self.name = name 
+self.age = age 
+p1 = Person("Nikita", 20) 
+p2 = Person("Kanika",19) 
+p3 = Person("Saloni",19) 
+print(p1.name) 
+print(p1.age) 
+print(p2.name) 
+print(p2.age) 
+print(p3.name) 
+print(p3.age) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Nikita 
+20 
+Kanika 
+19 
+Saloni 
+19 
+Process finished with exit code 0 
+class Person: 
+def __init__(self, name, age): 
+self.name = name 
+self.age = age 
+def __str__(self): 
+return f"{self.name}({self.age})" 
+p1 = Person("Nikita", 20) 
+p2 = Person("Ria",19) 
+p3 = Person("Ahana",17) 
+print(p1) 
+print(p2) 
+print(p3) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Nikita(20) 
+Ria(19) 
+Ahana(17) 
+Process finished with exit code 0 
+ 
+class Fruits: 
+    name = "" 
+    quantity = 0 
+ 
+fruit1 = Fruits() 
+ 
+fruit1.quantity = 5 
+fruit1.name = "Apples" 
+print(f"Name: {fruit1.name}, quantity: {fruit1.quantity} ") 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Name: Apples, quantity: 5  
+Process finished with exit code 0 
+ 
+ 
+class Room_area: 
+    length = 0.0 
+    breadth = 0.0 
+    def calculate_the_area(self): 
+        print("Area of Room =", self.length * self.breadth) 
+study_room = Room_area() 
+study_room.length = 50 
+study_room.breadth = 28.5 
+study_room.calculate_the_area() 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Area of Room = 1425.0 
+Process finished with exit code 0 
+ 
+class Student: 
+    def __init__(self): 
+        self.__roll = 0 
+        self.__name = "" 
+        self.__marks = [] 
+        self.__total = 0 
+        self.__per = 0 
+        self.__grade = "" 
+        self.__result = "" 
+ 
+    def setStudent(self): 
+        self.__roll = int(input("Enter Roll: ")) 
+        self.__name = input("Enter Name: ") 
+        print("Enter marks of 5 subjects: ") 
+        for i in range(5): 
+            self.__marks.append(int(input("Subject " + str(i + 1) + ": "))) 
+ 
+    def calculateTotal(self): 
+        for x in self.__marks: 
+            self.__total += x 
+ 
+    def calculatePercentage(self): 
+        self.__per = self.__total / 5 
+ 
+    def calculateGrade(self): 
+        if self.__per >= 85: 
+            self.__grade = "S" 
+        elif self.__per >= 75: 
+            self.__grade = "A" 
+        elif self.__per >= 65: 
+            self.__grade = "B" 
+        elif self.__per >= 55: 
+            self.__grade = "C" 
+        elif self.__per >= 50: 
+            self.__grade = "D" 
+        else: 
+            self.__grade = "F" 
+ 
+    def calculateResult(self): 
+        count = 0 
+        for x in self.__marks: 
+            if x >= 50: 
+                count += 1 
+        if count == 5: 
+            self.__result = "PASS" 
+        elif count >= 3: 
+            self.__result = "COMP." 
+        else: 
+            self.__result = "FAIL" 
+ 
+    def showStudent(self): 
+        self.calculateTotal() 
+        self.calculatePercentage() 
+        self.calculateGrade() 
+        self.calculateResult() 
+        print(self.__roll, "\t\t", self.__name, "\t\t", self.__total, 
+"\t\t", self.__per, "\t\t", self.__grade, "\t\t", 
+              self.__result) 
+ 
+ 
+def main(): 
+    s = Student() 
+    s.setStudent() 
+    s.showStudent() 
+ 
+ 
+if __name__ == "__main__": 
+    main() 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Enter Roll: 62 
+Enter Name: nikita 
+Enter marks of 5 subjects:  
+Subject 1: 87 
+Subject 2: 90 
+Subject 3: 95 
+Subject 4: 82 
+Subject 5: 79 
+62    nikita    433    86.6    S    PASS 
+Process finished with exit code 0 
+ 
+class Check: 
+    # Constructor 
+    def __init__(self, number): 
+        self.num = number 
+ 
+    def isArmstrong(self): 
+ 
+        temp = self.num 
+        res = 0 
+ 
+        while temp != 0: 
+            rem = temp % 10 
+            res += rem ** 3 
+            temp //= 10 
+        if self.num == res: 
+            print(self.num, "is an Armstrong number") 
+        else: 
+            print(self.num, "is not an Armstrong number") 
+ 
+ 
+# Driver code 
+if __name__ == "__main__": 
+    num = int(input("Enter a number: ")) 
+    obj = Check(num) 
+    obj.isArmstrong() 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Enter a number: 34 
+34 is not an Armstrong number 
+Process finished with exit code 0 
+ 
+class Check: 
+    def __init__(self, number): 
+        self.num = number 
+ 
+    def isPrime(self): 
+        if self.num <= 1: 
+            return False 
+for i in range(2, int(self.num ** 0.5) + 1): 
+if self.num % i == 0: 
+return False 
+return True 
+# Main code 
+if __name__ == "__main__": 
+num = int(input("Enter a number: "))   
+check_prime = Check(num)   
+if check_prime.isPrime():   
+print(num, "is a prime number") 
+else: 
+print(num, "is not a prime number") 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Enter a number: 19 
+19 is a prime number 
+Process finish
+--------------------------------------------
+inheritance:
+
+class Person: 
+def __init__(self, fname, lname): 
+self.firstname = fname 
+self.lastname = lname 
+def printname(self): 
+print(self.firstname, self.lastname) 
+x = Person("Nikita", "Kanchan") 
+x.printname() 
+class Friend(Person): 
+pass 
+x = Friend("Ria", "Kanchan") 
+x.printname() 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Nikita Kanchan 
+Ria Kanchan 
+Process finished with exit code 0 
+class Person: 
+def __init__(self, fname, lname): 
+self.firstname = fname 
+self.lastname = lname 
+def printname(self): 
+print(self.firstname, self.lastname) 
+class Friend(Person): 
+def __init__(self, fname, lname): 
+Person.__init__(self, fname, lname) 
+x = Friend("Saloni", "More") 
+x.printname() 
+x = Person("Nikita", "Kanchan") 
+x.printname() 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Saloni More 
+Nikita Kanchan 
+Process finished with exit code 0 
+class Person1: 
+    def __init__(self, fname, lname): 
+        self.firstname = fname 
+        self.lastname = lname 
+    def printname(self): 
+        print(self.firstname, self.lastname) 
+class Person(Person1): 
+    def __init__(self, fname, lname): 
+        super().__init__(fname, lname) 
+        self.age = 20 
+x =Person("Nikita", "Kanchan") 
+x.printname() 
+print(x.age) 
+x = Person1("Kanika", "Khurana") 
+x.printname() 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Nikita Kanchan 
+20 
+Kanika Khurana 
+Process finished with exit code 0 
+ 
+class Person: 
+    def __init__(self, fname, lname): 
+        self.firstname = fname 
+        self.lastname = lname 
+    def printname(self): 
+        print(self.firstname, self.lastname) 
+class Student(Person): 
+    def __init__(self, fname, lname, year): 
+        super().__init__(fname, lname) 
+        self.age = year 
+    def welcome(self): 
+        print( self.firstname, self.lastname, "of age", self.age) 
+x = Student("Nikita ", "Kanchan", 20) 
+x.welcome() 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Nikita  Kanchan of age 20 
+Process finished with exit code 0 
+ 
+class Polygon: 
+ 
+    def __init__(self, no_of_sides): 
+        self.n = no_of_sides 
+        self.sides = [0 for i in range(no_of_sides)] 
+    def inputSides(self): 
+        self.sides = [float(input("Enter side "+str(i+1)+" : ")) for i in 
+range(self.n)] 
+ 
+    def dispSides(self): 
+        for i in range(self.n): 
+            print("Side",i+1,"is",self.sides[i]) 
+class Triangle(Polygon): 
+ 
+    def __init__(self): 
+        Polygon.__init__(self,3) 
+    def findArea(self): 
+        a, b, c = self.sides 
+ 
+        s = (a + b + c) / 2 
+ 
+        area = (s*(s-a)*(s-b)*(s-c)) ** 0.5 
+        print('The area of the triangle is %0.2f' %area) 
+ 
+t = Triangle() 
+t.inputSides() 
+t.dispSides() 
+t.findArea() 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Enter side 1 : 3 
+Enter side 2 : 4 
+Enter side 3 : 5 
+Side 1 is 3.0 
+Side 2 is 4.0 
+Side 3 is 5.0 
+The area of the triangle is 6.00 
+Process finished with exit code 0 
+ 
+class Animal: 
+    def animal_info(self): 
+        print("Animals are living organisms.") 
+ 
+class Pet: 
+    def pet_info(self): 
+        print("Pets are domesticated animals.") 
+ 
+class Dog(Animal, Pet): 
+    def dog_info(self): 
+        print("Dogs are loyal and friendly animals.") 
+ 
+# Create an object of Dog class 
+d1 = Dog() 
+d1.animal_info() 
+d1.pet_info() 
+d1.dog_info() 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Animals are living organisms. 
+Pets are domesticated animals. 
+Dogs are loyal and friendly animals. 
+Process finished with exit code 0 
+ 
+class Shapes: 
+    def __init__(self, no_sides): 
+        self.n = no_sides 
+        self.sides = [0 for _ in range(no_sides)] 
+ 
+    def takeSides(self): 
+        self.sides = [float(input("Enter side " + str(i + 1) + ": ")) for i 
+in range(self.n)] 
+ 
+    def disSides(self): 
+        for i in range(self.n): 
+            print("Side", i + 1, "is", self.sides[i]) 
+ 
+ 
+class Rectangle(Shapes): 
+    def __init__(self): 
+        super().__init__(2)  # A rectangle has 2 sides 
+ 
+    def findArea(self): 
+        a, b = self.sides 
+        # Calculate the area 
+        area = a * b 
+        print('The area of the rectangle is', area) 
+ 
+ 
+# Create an object of Rectangle class 
+r = Rectangle() 
+r.takeSides() 
+r.disSides() 
+r.findArea() 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Enter side 1: 20 
+Enter side 2: 15 
+Side 1 is 20.0 
+Side 2 is 15.0 
+The area of the rectangle is 300.0 
+ 
+--------------------------------------------
+polymorphism:
+
+class Car: 
+def start_engine(self): 
+print("Car engine started") 
+class Train: 
+def start_engine(self): 
+print("Train engine started") 
+class Boat: 
+def start_engine(self): 
+print("Boat engine started") 
+# Attributes having same name are considered as duck typing 
+for obj in Car(), Train(), Boat(): 
+obj.start_engine() 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Car engine started 
+Train engine started 
+Boat engine started 
+Process finished with exit code 0 
+class Total: 
+def __init__(self,pages): 
+self.pages=pages 
+def __add__(self,other): 
+return self.pages+other.pages 
+b1= Total(140) 
+b2= Total(300) 
+print('Total number of pages are=', b1+b2) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Total number of pages are= 440 
+Process finished with exit code 0 
+class fullname: 
+    def __init__(self, a): 
+        self.a = a 
+# adding two objects 
+    def __add__(self, o): 
+        return self.a + o.a 
+ob1 = fullname(3) 
+ob2 = fullname(5) 
+ob3 = fullname("Nikita") 
+ob4 = fullname(" Kanchan") 
+print(ob1 + ob2) 
+print(ob3 + ob4) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+8 
+Nikita Kanchan 
+Process finished with exit code 0 
+ 
+class Point: 
+    def __init__(self, x=0, y=0): 
+        self.x = x 
+        self.y = y 
+ 
+    def __str__(self): 
+        return "({0},{1})".format(self.x, self.y) 
+ 
+    def __lt__(self, other): 
+        self_mag = (self.x ** 2) + (self.y ** 2) 
+        other_mag = (other.x ** 2) + (other.y ** 2) 
+        return self_mag < other_mag 
+ 
+p1 = Point(3, 1) 
+p2 = Point(-1, -3) 
+p3 = Point(4, 2) 
+ 
+print(p1 < p2)  # Output: True 
+print(p2 < p3)  # Output: False 
+print(p1 < p3)  # Output: False 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+False 
+True 
+True 
+ 
+Process finished with exit code 0 
+ 
+ 
+class Student: 
+    def __init__(self, r_no, name, age, marks): 
+        self.r_no = r_no 
+        self.name = name 
+        self.age = age 
+        self.marks = int(marks)  # Convert marks to integer 
+ 
+    def displayStudent(self): 
+        print("Roll no:", self.r_no, "Name:", self.name, ", Age:", 
+self.age, ", Marks:", self.marks) 
+ 
+    def __str__(self): 
+        return "({0},{1},{2},{3})".format(self.r_no, self.name, self.age, 
+self.marks) 
+ 
+    def __eq__(self, other): 
+        return self.marks == other.marks 
+ 
+stu = [] 
+for i in range(1, 3): 
+    print("Enter Details for Student %d" % i) 
+    r_no = int(input("Enter Roll no: ")) 
+    name = input("Enter Name: ") 
+    age = int(input("Enter Age: ")) 
+    marks = int(input("Enter Marks: ")) 
+    stu.append(Student(r_no, name, age, marks)) 
+ 
+for s in stu: 
+    s.displayStudent() 
+ 
+# Example of using the __eq__ method 
+if stu[0] == stu[1]: 
+    print("Students have the same marks.") 
+else: 
+    print("Students have different marks.") 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Enter Details for Student 1 
+Enter Roll no: 62 
+Enter Name: nikita 
+Enter Age: 20 
+Enter Marks: 85 
+Enter Details for Student 2 
+Enter Roll no: 12 
+Enter Name: divya 
+Enter Age: 20 
+Enter Marks: 75 
+Roll no: 62 Name: nikita , Age: 20 , Marks: 85 
+Roll no: 12 Name: divya , Age: 20 , Marks: 75 
+Students have different marks. 
+ 
+Process finished with exit code 0 
+ 
+class Example: 
+    def sum(self,a=None,b=None,c=None): 
+        if a!=None and b!=None and c!=None: 
+            print("Sum of Three=",a+b+c) 
+        elif a!=None and b!=None: 
+            print("Sum Of two=",a+b) 
+        else: 
+            print('Please enter two or three Argument') 
+m=Example() 
+m.sum(10,10,20) 
+m.sum(13.5,22.5) 
+m.sum(10) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Sum of Three= 40 
+Sum Of two= 36.0 
+Please enter two or three Argument 
+ 
+Process finished with exit code 0 
+ 
+class Employee: 
+    def message(self): 
+        print('This message is from Employee Class') 
+ 
+class Department(Employee): 
+    def message(self): 
+        print('This Department class is inherited from Employee') 
+ 
+class Sales(Employee): 
+    def message(self): 
+        print('This Sales class is also inherited from Employee') 
+ 
+emp = Employee() 
+emp.message() 
+print('------------') 
+ 
+dept = Department() 
+dept.message() 
+print('------------') 
+ 
+sl = Sales() 
+sl.message() 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+This message is from Employee Class ------------ 
+This Department class is inherited from Employee ------------ 
+This Sales class is also inherited from Employee 
+Process finished w
+--------------------------------------------
+arrays:
+
+import numpy as np 
+a = np.array([9, 3, 13, 24, 5, 46, 17, 10]) 
+print(a) 
+print(len(a)) 
+print(type(a)) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+[ 9  3 13 24  5 46 17 10] 
+8 
+<class 'numpy.ndarray'> 
+Process finished with exit code 0 
+#2D Array 
+import numpy as np 
+a = np.array([[12, 22, 3, 77], [4, 15, 1, 79]]) 
+print(a) 
+print(len(a)) 
+#3D Array 
+b = np.array([[[4, 5, 1], [78, 13, 6]], [[5, 3, 88], [4, 10, 6]]]) 
+print(b) 
+print(len(b)) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+[[12 22  3 77] 
+[ 4 15  1 79]] 
+2 
+[[[ 4  5  1] 
+[78 13  6]] 
+[[ 5  3 88] 
+[ 4 10  6]]] 
+2 
+Process finished with exit code 0 
+import numpy as np 
+a = np.array(5) 
+c = np.array([[1, 52, 23], [84, 9, 6]]) 
+d = np.array([[[1, 10, 3], [4, 65, 61]], [[1, 8, 3], [4, 15, 66]]]) 
+print(a.ndim) 
+print(c.ndim) 
+print(d.ndim) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+0 
+2 
+3 
+Process finished with exit code 0 
+import numpy as np 
+a = np.array([[11,20,3,34,5], [6,43,8,7,12]]) 
+print(a[0,0]) 
+print('2nd element on 1st row: ', a[0, 1]) 
+print(a[0,2]) 
+print(a[0,3]) 
+print(a[0,4]) 
+print(a[1,0]) 
+print(a[1,1]) 
+print(a[1,2]) 
+print(a[1,3]) 
+print(a[1,4]) 
+print(a) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+11 
+2nd element on 1st row:  20 
+3 
+34 
+5 
+6 
+43 
+8 
+7 
+12 
+[[11 20  3 34  5] 
+[ 6 43  8  7 12]] 
+Process finished with exit code 0 
+import numpy as np 
+a = np.array([10, 22, 6, 16, 87, 16, 7]) 
+print(a[1:5]) 
+print(a[0:6]) 
+print(a[1:6]) 
+#slicing elements 
+print(a[3:]) 
+print(a[4:]) 
+print(a[2:]) 
+print(a[:4]) 
+print(a[:5]) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+[22  6 16 87] 
+[10 22  6 16 87 16] 
+[22  6 16 87 16] 
+[16 87 16  7] 
+[87 16  7] 
+[ 6 16 87 16  7] 
+[10 22  6 16] 
+[10 22  6 16 87] 
+Process finished with exit code 0 
+import numpy as np 
+arr = np.array([10, 12, 33, 8], dtype='S') 
+print(arr) 
+print(arr.dtype) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+[b'10' b'12' b'33' b'8'] 
+|S2 
+Process finished with exit code 0 
+import numpy as np 
+arr1 = np.array([1.1, 2.1, 3.1]) 
+newarr1 = arr1.astype(int) 
+print(newarr1) 
+print(newarr1.dtype) 
+arr2 = np.array([1, 0, 3]) 
+newarr2 = arr2.astype(bool) 
+print(newarr2) 
+print(newarr2.dtype) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+[1 2 3] 
+int32 
+[ True False  True] 
+bool 
+Process finished with exit code 0 
+import numpy as np 
+arr = np.array([1, 22, 6, 4, 45]) 
+x = arr.copy() 
+arr[0] = 13 
+print(arr) 
+print(x) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+[13 22  6  4 45] 
+[ 1 22  6  4 45] 
+Process finished with exit code 0 
+import numpy as np 
+arr = np.array([9, 12, 7, 44, 5]) 
+print(arr) 
+x = arr.copy() 
+print(x) 
+y = arr.view() 
+print(y) 
+print(x.base) 
+print(y.base) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+[ 9 12  7 44  5] 
+[ 9 12  7 44  5] 
+[ 9 12  7 44  5] 
+None 
+[ 9 12  7 44  5] 
+Process finished with exit code 0 
+import numpy as np 
+arr = np.array([6, 12, 5, 10], ndmin=3) 
+print(arr) 
+print('The shape of array :', arr.shape) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+[[[ 6 12  5 10]]] 
+The shape of array : (1, 1, 4) 
+Process finished with exit code 0 
+import numpy as np 
+arr = np.array([11, 2, 63, 4, 25, 16, 9, 66, 16, 10, 21, 12]) 
+newarr = arr.reshape(4, 3) 
+print(newarr) 
+newarr = arr.reshape(3, 4) 
+print(newarr) 
+newarr = arr.reshape(6, 2) 
+print(newarr) 
+newarr = arr.reshape(2, 6) 
+print(newarr) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+[[11  2 63] 
+[ 4 25 16] 
+[ 9 66 16] 
+[10 21 12]] 
+[[11  2 63  4] 
+[25 16  9 66] 
+[16 10 21 12]] 
+[[11  2] 
+[63  4] 
+[25 16] 
+[ 9 66] 
+[16 10] 
+[21 12]] 
+[[11  2 63  4 25 16] 
+[ 9 66 16 10 21 12]] 
+Process finished with exit code 0 
+import numpy as np 
+arr = np.array([11, 2, 63, 4, 25, 16, 9, 66, 16, 10, 21, 12]) 
+newarr = arr.reshape(2, 3, 2) 
+print(newarr) 
+newarr = arr.reshape(2, 2, 3) 
+print(newarr) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+[[[11  2] 
+[63  4] 
+[25 16]] 
+[[ 9 66] 
+[16 10] 
+[21 12]]] 
+[[[11  2 63] 
+[ 4 25 16]] 
+[[ 9 66 16] 
+[10 21 12]]] 
+Process finished with exit code 0 
+import numpy as np 
+arr = np.array([[2, 12, 24], [14, 35, 16]]) 
+for x in arr: 
+for y in x: 
+print(y) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+2 
+12 
+24 
+14 
+35 
+16 
+Process finished with exit code 0 
+import numpy as np 
+arr1 = np.array([11, 12, 13]) 
+arr2 = np.array([14, 15, 16]) 
+arr = np.concatenate((arr1, arr2)) 
+print(arr) 
+arr3 = np.array([[11, 22], [13, 24]]) 
+arr4 = np.array([[15, 26], [17, 28]]) 
+arr = np.concatenate((arr3, arr4), axis=1) 
+print(arr) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+[11 12 13 14 15 16] 
+[[11 22 15 26] 
+[13 24 17 28]] 
+Process finished with exit code 0 
+import numpy as np 
+arr1 = np.array([1, 2, 3]) 
+arr2 = np.array([4, 5, 6]) 
+arr = np.hstack((arr1, arr2)) 
+print(arr) 
+arr = np.vstack((arr1, arr2)) 
+print(arr 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+[1 2 3 4 5 6] 
+[[1 2 3] 
+[4 5 6]] 
+Process finished with exit code 0 
+import numpy as np 
+arr = np.array([1, 2, 3, 4, 5, 6]) 
+newarr = np.array_split(arr, 3) 
+print(newarr) 
+newarr = np.array_split(arr, 4) 
+print(newarr) 
+print(newarr[0]) 
+print(newarr[1]) 
+print(newarr[2]) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+[array([1, 2]), array([3, 4]), array([5, 6])] 
+[array([1, 2]), array([3, 4]), array([5]), array([6])] 
+[1 2] 
+[3 4] 
+[5] 
+Process finished with exit code 0 
+import numpy as np 
+arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [20, 21, 22], [33, 34, 
+15], [46, 17, 18]]) 
+newarray = np.array_split(arr, 3) 
+print(newarray) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+[array([[1, 2, 3], 
+[4, 5, 6]]), array([[ 7,  8,  9], 
+[20, 21, 22]]), array([[33, 34, 15], 
+[46, 17, 18]])] 
+Process finished with exit code 0 
+import numpy as np 
+arr = np.array([[1, 2, 3], [14, 15, 16], [7, 8, 9], [10, 11, 12], [23, 24, 
+25], [36, 17, 18]]) 
+newarray = np.hsplit(arr, 3) 
+print(newarray) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+[array([[ 1], 
+[14], 
+       [ 7], 
+       [10], 
+       [23], 
+       [36]]), array([[ 2], 
+       [15], 
+       [ 8], 
+       [11], 
+       [24], 
+       [17]]), array([[ 3], 
+       [16], 
+       [ 9], 
+       [12], 
+       [25], 
+       [18]])] 
+Process finished with exit code 0 
+ 
+import numpy as np 
+arr = np.array([1, 2, 3, 4, 5, 4, 4]) 
+x = np.where(arr == 4) 
+print(x) 
+ 
+x = np.where(arr%2 == 0) 
+print(x) 
+ 
+x = np.where(arr%2 == 1) 
+print(x) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+(array([3, 5, 6], dtype=int64),) 
+(array([1, 3, 5, 6], dtype=int64),) 
+(array([0, 2, 4], dtype=int64),) 
+Process finished with exit code 0 
+ 
+ 
+import numpy as np 
+arr = np.array([10, 13, 15, 17]) 
+x = np.searchsorted(arr, [12, 14, 16]) 
+print(x) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+[1 2 3] 
+Process finished with exit c
+--------------------------------------------------------
+file exception and handling:
+Syntax 
+To open a file for reading it is enough to specify the name of the file: 
+f = open("demofile.txt") 
+You can write the same code as follows: 
+f = open("demofile.txt", "rt") 
+Because "r" for read, and "t" for text are the default values, you do not need to specify them. 
+Note: Make sure the file exists, or else you will get an error. 
+Open a File on the Server 
+Assume we have the following file, located in the same folder as Python: 
+demofile.txt 
+Hello! Welcome to demofile.txt 
+This file is for testing purposes. 
+Good Luck! 
+To open the file, use the built-in open() function. 
+The open() function returns a file object, which has a read() method for reading the content of the 
+file: 
+Example 
+f = open("demofile.txt", "r") 
+print(f.read()) 
+Output 
+Hello! Welcome to demofile.txt 
+This file is for testing purposes. 
+Good Luck! 
+If the file is located in a different location, you will have to specify the file path, like this: 
+Example 
+Open a file on a different location: 
+f = open("D:\\myfiles\welcome.txt", "r") 
+print(f.read()) 
+Output 
+Welcome to this text file! 
+This file is located in a folder named "myfiles", on the D drive. 
+Good Luck! 
+Read Only Parts of the File 
+By default the read() method returns the whole text, but you can also specify how many 
+characters you want to return: 
+Example 
+Return the 5 first characters of the file: 
+f = open("demofile.txt", "r") 
+print(f.read(5)) 
+Output 
+Hello 
+Read Lines 
+You can return one line by using the readline() method: 
+Example 
+Read one line of the file: 
+f = open("demofile.txt", "r") 
+print(f.readline()) 
+Output 
+Hello! Welcome to demofile.txt 
+By calling readline() two times, you can read the two first lines: 
+Example 
+Read two lines of the file: 
+f = open("demofile.txt", "r") 
+print(f.readline()) 
+print(f.readline()) 
+Output 
+Hello! Welcome to demofile.txt 
+This file is for testing purposes. 
+By looping through the lines of the file, you can read the whole file, line by line: 
+Example 
+Loop through the file line by line: 
+f = open("demofile.txt", "r") 
+for x in f: 
+print(x) 
+Output 
+Hello! Welcome to demofile.txt 
+This file is for testing purposes. 
+Good Luck! 
+Close Files 
+It is a good practice to always close the file when you are done with it. 
+Example 
+Close the file when you are finish with it: 
+f = open("demofile.txt", "r") 
+print(f.readline()) 
+f.close() 
+Output 
+Hello! Welcome to demofile.txt 
+Write to an Existing File 
+To write to an existing file, you must add a parameter to the open() function: 
+"a" - Append - will append to the end of the file 
+"w" - Write - will overwrite any existing content 
+Example  
+Open the file "demofile2.txt" and append content to the file: 
+f = open("demofile2.txt", "a") 
+f.write("Now the file has more content!") 
+f.close() 
+#open and read the file after the appending: 
+f = open("demofile2.txt", "r") 
+print(f.read()) 
+Output 
+Hello! Welcome to demofile2.txt 
+This file is for testing purposes. 
+Good Luck!Now the file has more content! 
+Example 
+Open the file "demofile3.txt" and overwrite the content: 
+f = open("demofile3.txt", "w") 
+f.write("Woops! I have deleted the content!") 
+f.close() 
+#open and read the file after the overwriting: 
+f = open("demofile3.txt", "r") 
+print(f.read()) 
+Output 
+Woops! I have deleted the content! 
+Note: the "w" method will overwrite the entire file. 
+Create a New File 
+To create a new file in Python, use the open() method, with one of the following parameters: 
+"x" - Create - will create a file, returns an error if the file exist 
+"a" - Append - will create a file if the specified file does not exist 
+"w" - Write - will create a file if the specified file does not exist 
+Example 
+Create a file called "myfile.txt": 
+f = open("myfile.txt", "x") 
+Result: a new empty file is created! 
+Example 
+Create a new file if it does not exist: 
+f = open("myfile.txt", "w") 
+Delete a File 
+To delete a file, you must import the OS module, and run its os.remove() function: 
+Example  
+Remove the file "demofile.txt": 
+import os 
+os.remove("demofile.txt") 
+Check if File exist: 
+To avoid getting an error, you might want to check if the file exists before you try to delete it: 
+Example 
+Check if file exists, then delete it: 
+import os 
+if os.path.exists("demofile.txt"): 
+os.remove("demofile.txt") 
+else: 
+print("The file does not exist") 
+Delete Folder 
+To delete an entire folder, use the os.rmdir() method: 
+Example 
+Remove the folder "myfolder": 
+import os 
+os.rmdir("myfolder") 
+Note: You can only remove empty folders. 
+The try block lets you test a block of code for errors. 
+The except block lets you handle the error. 
+The else block lets you execute code when there is no error. 
+The finally block lets you execute code, regardless of the result of the try- and except 
+blocks. 
+Exception Handling 
+When an error occurs, or exception as we call it, Python will normally stop and generate an error 
+message. 
+These exceptions can be handled using the try statement: 
+Example  
+The try block will generate an exception, because x is not defined: 
+try: 
+print(x) 
+except: 
+print("An exception occurred") 
+Output 
+An exception occurred 
+Since the try block raises an error, the except block will be executed. 
+Without the try block, the program will crash and raise an error: 
+Example 
+This statement will raise an error, because x is not defined: 
+print(x) 
+Output 
+Traceback (most recent call last): 
+File "demo_try_except_error.py", line 3, in <module> 
+print(x) 
+NameError: name 'x' is not defined 
+Many Exceptions 
+You can define as many exception blocks as you want, e.g. if you want to execute a special block 
+of code for a special kind of error: 
+Example 
+Print one message if the try block raises a NameError and another for other errors: 
+try: 
+print(x) 
+except NameError: 
+print("Variable x is not defined") 
+except: 
+print("Something else went wrong") 
+Output 
+Variable x is not defined 
+Else 
+You can use the else keyword to define a block of code to be executed if no errors were raised: 
+Example 
+In this example, the try block does not generate any error: 
+try: 
+print("Hello") 
+except: 
+print("Something went wrong") 
+else: 
+print("Nothing went wrong") 
+Output 
+Hello 
+Nothing went wrong 
+Finally 
+The finally block, if specified, will be executed regardless if the try block raises an error or not. 
+Example 
+try: 
+print(x) 
+except: 
+print("Something went wrong") 
+finally: 
+print("The 'try except' is finished") 
+Output 
+Something went wrong 
+The 'try except' is finished 
+This can be useful to close objects and clean up resources: 
+Example 
+Try to open and write to a file that is not writable: 
+try: 
+f = open("demofile.txt") 
+try: 
+f.write("Lorum Ipsum") 
+except: 
+print("Something went wrong when writing to the file") 
+finally: 
+f.close() 
+except: 
+print("Something went wrong when opening the file") 
+Output 
+Something went wrong when writing to the file 
+The program can continue, without leaving the file object open. 
+Raise an exception 
+As a Python developer you can choose to throw an exception if a condition occurs. 
+To throw (or raise) an exception, use the raise keyword. 
+Example 
+Raise an error and stop the program if x is lower than 0: 
+x = -1 
+if x < 0: 
+raise Exception("Sorry, no numbers below zero") 
+Output 
+Traceback (most recent call last): 
+File "demo_ref_keyword_raise.py", line 4, in <module> 
+raise Exception("Sorry, no numbers below zero") 
+Exception: Sorry, no numbers below zero 
+The raise keyword is used to raise an exception. 
+You can define what kind of error to raise, and the text to print to the user. 
+Example 
+Raise a TypeError if x is not an integer: 
+x = "hello" 
+if not type(x) is int: 
+raise TypeError("Only integers are allowed") 
+Output 
+Traceback (most recent call last): 
+File "demo_ref_keyword_raise2.py", line 4, in <module> 
+raise TypeError("Only integers are allowed") 
+TypeError: Only integers are allowed
+
+
+
+
+
+[only exception]
+try: 
+numerator = 25 
+denominator = 0 
+result = numerator/denominator 
+print(result) 
+except: 
+print("Error: Denominator cannot be 0.") 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Error: Denominator cannot be 0. 
+Process finished with exit code 0 
+try: 
+even_numbers = [12,14,10,8] 
+print(even_numbers[5]) 
+except ZeroDivisionError: 
+print("Denominator cannot be 0.") 
+except IndexError: 
+print("Index Out of Bound.") 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Index Out of Bound. 
+Process finished with exit code 0 
+try: 
+num = int(input("Enter a number: ")) 
+assert num % 2 == 0 
+except: 
+print("Not an even number!") 
+else: 
+reciprocal = 1/num 
+print(reciprocal) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Enter a number: 12 
+0.08333333333333333 
+Process finished with exit code 0 
+try: 
+numerator = 15 
+denominator = 0 
+result = numerator/denominator 
+print(result) 
+except: 
+print("Error is : Denominator cannot be 0.") 
+finally: 
+print("This is the finally block.") 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Error is : Denominator cannot be 0. 
+This is the finally block. 
+Process finished with exit code 0 
+class InvalidAgeException(Exception): 
+pass 
+number = 18 
+try: 
+input_num = int(input("Input a number: ")) 
+if input_num < number: 
+raise InvalidAgeException 
+else: 
+print("You are eligible to Vote") 
+except InvalidAgeException: 
+print("Exception occurred: Invalid Age") 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+Input a number: 22 
+You are eligible to Vote 
+Proce
+-----------------------------------------
+spicy :
+
+Scipy 
+CODE: 
+from scipy import constants 
+print(constants.liter) 
+ 
+OUTPUT: 
+0.001 
+ 
+CODE: 
+from scipy import constants 
+print(dir(constants)) 
+ 
+OUTPUT: 
+['Avogadro', 'Boltzmann', 'Btu', 
+'Btu_IT', 'Btu_th', 
+'ConstantWarning', 'G', 
+'Julian_year', 'N_A', 'Planck', 'R', 
+'Rydberg', 'Stefan_Boltzmann', 
+'Wien', '__all__', '__builtins__', 
+'__cached__', '__doc__', '__file__', 
+'__loader__', '__name__', 
+'__package__', '__path__', 
+'__spec__', '_codata', '_constants', 
+'_obsolete_constants', 'acre', 
+'alpha', 'angstrom', 'arcmin', 
+'arcminute', 'arcsec', 'arcsecond', 
+'astronomical_unit', 'atm', 
+'atmosphere', 'atomic_mass', 'atto', 
+'au', 'bar', 'barrel', 'bbl', 'blob', 'c', 
+'calorie', 'calorie_IT', 'calorie_th', 
+'carat', 'centi', 'codata', 'constants'] 
+CODE: 
+from scipy import constants 
+print(constants.yotta) 
+print(constants.zetta) 
+print(constants.exa) 
+print(constants.peta) 
+print(constants.tera) 
+print(constants.giga) 
+print(constants.mega) 
+print(constants.kilo) 
+print(constants.hecto) 
+print(constants.deka) 
+print(constants.deci) 
+print(constants.centi) 
+print(constants.milli) 
+print(constants.micro) 
+print(constants.nano) 
+print(constants.pico) 
+print(constants.femto) 
+print(constants.atto) 
+print(constants.zepto) 
+OUTPUT: 
+1e+24 
+1e+21 
+1e+18 
+1000000000000000.0 
+1000000000000.0 
+1000000000.0 
+1000000.0 
+1000.0 
+100.0 
+10.0 
+0.1 
+0.01 
+0.001 
+1e-06 
+1e-09 
+1e-12 
+1e-15 
+1e-18 
+1e-21 
+CODE: 
+from scipy import constants 
+print(constants.kibi) 
+print(constants.mebi) 
+print(constants.gibi) 
+print(constants.tebi) 
+print(constants.pebi) 
+print(constants.exbi) 
+print(constants.zebi) 
+print(constants.yobi) 
+OUTPUT: 
+1024 
+1048576 
+1073741824 
+1099511627776 
+1125899906842624 
+1152921504606846976 
+1180591620717411303424 
+1208925819614629174706176 
+CODE: 
+from scipy import constants 
+print(constants.degree) 
+print(constants.arcmin) 
+print(constants.arcminute) 
+print(constants.arcsec) 
+print(constants.arcsecond) 
+OUTPUT: 
+0.017453292519943295 
+0.0002908882086657216 
+0.0002908882086657216 
+4.84813681109536e-06 
+4.84813681109536e-06 
+CODE: 
+from scipy import constants 
+print(constants.minute) 
+print(constants.hour) 
+print(constants.day) 
+print(constants.week) 
+print(constants.year) 
+print(constants.Julian_year) 
+OUTPUT: 
+60.0 
+3600.0 
+86400.0 
+604800.0 
+31536000.0 
+31557600.0 
+CODE: 
+from scipy import constants 
+print(constants.inch) 
+print(constants.foot) 
+print(constants.yard) 
+print(constants.mile) 
+print(constants.mil) 
+print(constants.pt) 
+print(constants.point) 
+print(constants.survey_foot) 
+print(constants.survey_mile) 
+print(constants.nautical_mile) 
+print(constants.fermi) 
+print(constants.angstrom) 
+print(constants.micron) 
+print(constants.au) 
+print(constants.astronomical_unit) 
+print(constants.light_year) 
+print(constants.parsec) 
+OUTPUT: 
+0.0254 
+0.30479999999999996 
+0.9143999999999999 
+1609.3439999999998 
+2.5399999999999997e-05 
+0.00035277777777777776 
+0.00035277777777777776 
+0.3048006096012192 
+1609.3472186944373 
+1852.0 
+1e-15 
+1e-10 
+1e-06 
+149597870700.0 
+149597870700.0 
+9460730472580800.0 
+3.085677581491367e+16 
+CODE: 
+from scipy.optimize import root 
+from math import cos 
+def eqn(x): 
+return x + cos(x) 
+myroot = root(eqn, 0) 
+print(myroot.x) 
+OUTPUT: 
+[-0.73908513] 
+CODE: 
+#importing the scipy and numpy packages 
+from scipy import linalg 
+import numpy as np 
+#Declaring the numpy arrays 
+a = np.array([[3, 2, 0], [1, -1, 0], [0, 
+5, 1]]) 
+b = np.array([2, 4, -1]) 
+#Passing the values to the solve function 
+x = linalg.solve(a, b) 
+#printing the result array 
+print (x) 
+OUTPUT: 
+[ 2. -2. 9.] 
+CODE: 
+#Determinant 
+#importing the scipy and numpy packages 
+from scipy import linalg 
+import numpy as np 
+#Declaring the numpy array 
+A = np.array([[1,2],[3,4]]) 
+#Passing the values to the det function 
+x = linalg.det(A) 
+#printing the result 
+print (x) 
+OUTPUT: -2.0 
+CODE: 
+#eigen value and eigen vectors 
+#importing the scipy and numpy packages 
+from scipy import linalg 
+import numpy as np 
+#Declaring the numpy array 
+A = np.array([[1,2],[3,4]]) 
+#Passing the values to the eig function 
+l, v = linalg.eig(A) 
+#printing the result for eigen values 
+print (l) 
+#printing the result for eigen vectors 
+print (v) 
+OUTPUT: 
+[-0.37228132+0.j 5.37228132+0.j] 
+[[-0.82456484 -0.41597356] 
+[ 0.56576746 -0.90937671]] 
+CODE: 
+#We can use the dot() function available 
+in NumPy's linear algebra module to 
+calculate the product of two arrays. 
+import numpy as np 
+array1 = np.array([1, 3, 5]) 
+array2 = np.array([2, 4, 6]) 
+# use of dot() to perform array 
+multiplication 
+result = np.dot(array1, array2) 
+print(result) 
+OUTPUT: 
+44 
+CODE: 
+#the inner() function computes the inner 
+product of two arrays, which is the sum of 
+the products of their corresponding 
+entries. 
+import numpy as np 
+array1 = np.array([[1, 3], 
+[5, 7]]) 
+array2 = np.array([[2, 4], 
+[6, 8]]) 
+# inner() for 2D arrays 
+result = np.inner(array1, array2) 
+print(result) 
+OUTPUT: 
+[[14 30] 
+[38 86]] 
+CODE: 
+#The outer() function in NumPy computes 
+the outer product of two arrays, 
+#which is the product of all possible 
+pairs of their entries. 
+import numpy as np 
+array1 = np.array([1, 3, 5]) 
+array2 = np.array([2, 4, 6]) 
+# outer() to perform outer multiplication 
+result = np.outer(array1, array2) 
+print(result) 
+OUTPUT: 
+[[ 2 4 6] 
+[ 6 12 18] 
+[10 20 30]] 
+CODE: 
+import numpy as np 
+# define the coefficient matrix A 
+A = np.array([[2, 4], 
+[6, 8]]) 
+# define the constant vector b 
+b = np.array([5, 6]) 
+# solve the system of linear equations Ax 
+= b 
+x = np.linalg.solve(A, b) 
+print(x) 
+OUTPUT: 
+[-2. 2.25] 
+CODE: 
+#the trace() function to compute the sum 
+of the diagonal elements of a matrix. 
+import numpy as np 
+# define a 3x3 matrix 
+array1 = np.array([[6, 3, 5], 
+[9, 2, 1], 
+[7, 8, 4]]) 
+# compute the trace of the matrix 
+result = np.trace(array1) 
+print(result) 
+OUTPUT: 
+12
+----------------------------------------------
+pandas and tkinter:
+
+import pandas 
+mydataset = { 
+'fruits': ["apples", "banana", "grapes"], 
+'quantity': [3, 7, 9] 
+} 
+myvar = pandas.DataFrame(mydataset) 
+print(myvar) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+fruits  quantity 
+0  apples         
+1  banana         
+2  grapes         
+3 
+7 
+9 
+Process finished with exit code 0  
+import pandas as pd 
+z = [11, 10, 2] 
+myvariable = pd.Series(z, index = ["a", "b", "c"]) 
+print(myvariable) 
+11 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+a    
+b    10 
+c     2 
+dtype: int64 
+Process finished with exit code 0 
+import pandas as pd 
+calories_consumed = {"day1": 410, "day2": 320, "day3": 400,"day4": 340} 
+myvariable = pd.Series(calories_consumed, index = ["day1", "day2"]) 
+print(myvariable) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+day1    410 
+day2    320 
+dtype: int64 
+Process finished with exit code 0 
+import pandas as pd 
+data = { 
+"distance": [5.2, 4.8, 5.0], 
+"steps": [7500, 6800, 7100] 
+} 
+myvar = pd.DataFrame(data) 
+print(myvar) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+distance  steps 
+0       
+1       
+2       
+5.2   7500 
+4.8   6800 
+5.0   7100 
+Process finished with exit code 0 
+import pandas as pd 
+data = { 
+"distance": [5.2, 4.8, 5.0], 
+"steps": [7500, 6800, 7100] 
+} 
+myvar = pd.DataFrame(data) 
+print(myvar) 
+df = pd.DataFrame(data) 
+print(df.loc[0]) 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\.venv\Scripts\python.exe" 
+"C:\Users\NIKITA KANCHAN\PycharmProjects\pythonProject\assignments.py"  
+distance  steps 
+0       
+1       
+2       
+5.2   7500 
+4.8   6800 
+5.0   7100 
+distance       
+5.2 
+steps       
+7500.0 
+Name: 0, dtype: float64 
+Process finished with exit code 0 
+Here there is 1 duplicate and one empty cell: 
+
+Nikita Kanchan 
+S13 
+Roll no: 62 
+ASSIGNMENT 15: Tkinter 
+LOGIN 
+from tkinter import * 
+top = Tk() 
+top.geometry("400x250") 
+name = Label(top, text = "Name").place(x = 30,y = 50) 
+email = Label(top, text = "Email").place(x = 30, y = 90) 
+password = Label(top, text = "Password").place(x = 30, y = 130) 
+sbmitbtn = Button(top, text = "Submit",activebackground = "blue", 
+activeforeground = "white").place(x = 30, y = 170) 
+e1 = Entry(top).place(x = 80, y = 50) 
+e2 = Entry(top).place(x = 80, y = 90) 
+e3 = Entry(top).place(x = 95, y = 130) 
+top.mainloop()  
+OUTPUT 
+CALCULATOR 
+import tkinter as tk 
+from functools import partial 
+def calculate_result(label_result, num1, num2, operation): 
+try: 
+num1_val = int(num1.get()) 
+num2_val = int(num2.get()) 
+if operation == '+': 
+result = num1_val + num2_val 
+elif operation == '-': 
+result = num1_val - num2_val 
+        elif operation == '*': 
+            result = num1_val * num2_val 
+        elif operation == '/': 
+            result = num1_val / num2_val 
+        else: 
+            result = "Invalid operation" 
+ 
+        label_result.config(text="Result = %s" % str(result)) 
+    except ValueError: 
+        label_result.config(text="Invalid input") 
+    except ZeroDivisionError: 
+        label_result.config(text="Division by zero") 
+ 
+ 
+root = tk.Tk() 
+root.geometry('400x200+100+200') 
+root.title('Simple Calculator') 
+ 
+number1 = tk.StringVar() 
+number2 = tk.StringVar() 
+ 
+labelDisplay = tk.Label(root, text="Calculator", font=('Arial', 14, 
+'bold')) 
+labelDisplay.pack() 
+ 
+frame_input = tk.Frame(root) 
+frame_input.pack() 
+ 
+labelNum1 = tk.Label(frame_input, text="Enter first number:") 
+labelNum1.grid(row=0, column=0) 
+ 
+entryNum1 = tk.Entry(frame_input, textvariable=number1) 
+entryNum1.grid(row=0, column=1) 
+ 
+labelNum2 = tk.Label(frame_input, text="Enter second number:") 
+labelNum2.grid(row=1, column=0) 
+ 
+entryNum2 = tk.Entry(frame_input, textvariable=number2) 
+entryNum2.grid(row=1, column=1) 
+ 
+frame_buttons = tk.Frame(root) 
+frame_buttons.pack() 
+ 
+operation = tk.StringVar() 
+operation.set('+') 
+operation_choices = ['+', '-', '*', '/'] 
+ 
+labelOperation = tk.Label(frame_buttons, text="Choose operation:") 
+labelOperation.pack() 
+ 
+operation_menu = tk.OptionMenu(frame_buttons, operation, 
+*operation_choices) 
+operation_menu.pack() 
+ 
+labelResult = tk.Label(root, text="Result = ") 
+labelResult.pack() 
+ 
+call_result = partial(calculate_result, labelResult, number1, number2, 
+operation.get())  # Retrieve the selected operation 
+ 
+buttonCal = tk.Button(frame_buttons, text="Calculate", command=call_result) 
+buttonCal.pack() 
+ 
+root.mainloop() 
+ 
+OUTPUT 
+ 
+ 
+ 
+SCIENTIFIC CALCULATOR 
+import tkinter as tk 
+import math 
+ 
+ 
+def add_to_expression(value): 
+    current_expression = entryNum1.get() 
+    entryNum1.delete(0, tk.END) 
+    entryNum1.insert(tk.END, current_expression + value) 
+ 
+ 
+def clear_expression(): 
+    entryNum1.delete(0, tk.END) 
+ 
+ 
+def calculate_result(): 
+    try: 
+        expression = entryNum1.get() 
+        expression = expression.replace('^', '**')  # Replace '^' with '**' 
+for exponentiation 
+        result = eval(expression) 
+        result_label.config(text="Result = %.2f" % result) 
+    except Exception as e: 
+        result_label.config(text=str(e)) 
+ 
+ 
+def calculate_sqrt(): 
+    try: 
+        num = float(entryNum1.get()) 
+        result = math.sqrt(num) 
+        result_label.config(text="Result = %.2f" % result) 
+    except ValueError: 
+        result_label.config(text="Invalid input") 
+ 
+ 
+def calculate_trig(func): 
+    try: 
+        angle = float(entryNum1.get()) 
+        if func == 'sin': 
+            result = math.sin(math.radians(angle)) 
+        elif func == 'cos': 
+            result = math.cos(math.radians(angle)) 
+        elif func == 'tan': 
+            result = math.tan(math.radians(angle)) 
+        else: 
+            result = "Invalid function" 
+ 
+        result_label.config(text="Result = %.2f" % result) 
+    except ValueError: 
+        result_label.config(text="Invalid input") 
+ 
+ 
+root = tk.Tk() 
+root.geometry('400x400') 
+root.title('Scientific Calculator') 
+ 
+result_label = tk.Label(root, text="Result = ") 
+result_label.grid(row=0, column=0, columnspan=4, padx=10, pady=10) 
+ 
+entryNum1 = tk.Entry(root, width=40) 
+entryNum1.grid(row=1, column=0, columnspan=4, padx=10, pady=10) 
+ 
+buttons = [ 
+    ('7', 2, 0), ('8', 2, 1), ('9', 2, 2), ('/', 2, 3), 
+    ('4', 3, 0), ('5', 3, 1), ('6', 3, 2), ('*', 3, 3), 
+    ('1', 4, 0), ('2', 4, 1), ('3', 4, 2), ('-', 4, 3), 
+    ('0', 5, 0), ('.', 5, 1), ('sqrt', 5, 2), ('+', 5, 3), 
+    ('pi', 6, 0), ('e', 6, 1), ('(', 6, 2), (')', 6, 3), 
+    ('sin', 7, 0), ('cos', 7, 1), ('tan', 7, 2), ('^', 7, 3), 
+    ('Clear', 8, 0), ('Calculate', 8, 1, 1, 4) 
+] 
+ 
+for button_text, row, col, *span in buttons: 
+    button = tk.Button(root, text=button_text, width=8, height=2, padx=5, 
+pady=5) 
+    button.grid(row=row, column=col, rowspan=span[0] if span else 1, 
+columnspan=span[1] if span else 1, padx=5, pady=5) 
+ 
+    if button_text == 'Clear': 
+        button.config(command=clear_expression) 
+    elif button_text == 'Calculate': 
+        button.config(command=calculate_result) 
+    elif button_text == 'sqrt': 
+        button.config(command=calculate_sqrt) 
+    elif button_text in ['sin', 'cos', 'tan']: 
+        button.config(command=lambda x=button_text: calculate_trig(x)) 
+    else: 
+        button.config(command=lambda x=button_text: add_to_expression(x)) 
+ 
+root.mainloop() 
+ 
+ 
+OUTPUT 
+sqrt of 64 
+MENUBAR 
+from tkinter import Toplevel, Button, Tk, Menu 
+top = Tk() 
+top.title("My Application")   
+menubar = Menu(top) 
+file = Menu(menubar, tearoff=0) 
+file.add_command(label="New") 
+file.add_command(label="Open") 
+file.add_command(label="Save") 
+file.add_command(label="Save as...") 
+file.add_command(label="Close") 
+file.add_separator() 
+file.add_command(label="Exit", command=top.quit) 
+menubar.add_cascade(label="File", menu=file) 
+edit = Menu(menubar, tearoff=0) 
+edit.add_command(label="Undo") 
+edit.add_separator() 
+edit.add_command(label="Cut") 
+edit.add_command(label="Copy") 
+edit.add_command(label="Paste") 
+edit.add_command(label="Delete") 
+edit.add_command(label="Select All") 
+menubar.add_cascade(label="Edit", menu=edit) 
+view = Menu(menubar, tearoff=0) 
+view.add_command(label="Full Screen") 
+view.add_command(label="Zoom In") 
+view.add_command(label="Zoom Out") 
+view.add_command(label="Toggle Sidebar") 
+menubar.add_cascade(label="View", menu=view) 
+tools = Menu(menubar, tearoff=0) 
+tools.add_command(label="Preferences") 
+tools.add_command(label="Customize") 
+tools.add_command(label="Options") 
+menubar.add_cascade(label="Tools", menu=tools) 
+help_menu = Menu(menubar, tearoff=0) 
+help_menu.add_command(label="About") 
+menubar.add_cascade(label="Help", menu=help_menu) 
+top.config(menu=menubar) 
+top.mainloop() 
+OUTPUT
+---------------------------------------------------
+matplotlib:
+
+1) Write a Pandas program to create and display a DataFrame from a specified dictionary data which has the index labels.
+Sample Python dictionary data and list labels:
+exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael', 'Matthew', 'Laura', 'Kevin', 'Jonas'],
+'score': [12.5, 9, 16.5, np.nan, 9, 20, 14.5, np.nan, 8, 19],
+'attempts': [1, 3, 2, 3, 2, 3, 1, 1, 2, 1],
+'qualify': ['yes', 'no', 'yes', 'no', 'no', 'yes', 'yes', 'no', 'no', 'yes']}
+labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+
+Expected Output:
+First three rows of the data frame:                                   
+   attempts       name qualify  score                              
+a         1  Anastasia     yes   12.5                                 
+b         3       Dima      no    9.0                                 
+c         2  Katherine     yes   16.5
+
+2)Write a Pandas program to get the first 3 rows of a given DataFrame.
+Sample Python dictionary data and list labels:
+exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael', 'Matthew', 'Laura', 'Kevin', 'Jonas'],
+'score': [12.5, 9, 16.5, np.nan, 9, 20, 14.5, np.nan, 8, 19],
+'attempts': [1, 3, 2, 3, 2, 3, 1, 1, 2, 1],
+'qualify': ['yes', 'no', 'yes', 'no', 'no', 'yes', 'yes', 'no', 'no', 'yes']}
+labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+
+3)Write a Pandas program to select the rows the score is between 15 and 20 (inclusive).
+Sample Python dictionary data and list labels:
+exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael', 'Matthew', 'Laura', 'Kevin', 'Jonas'],
+'score': [12.5, 9, 16.5, np.nan, 9, 20, 14.5, np.nan, 8, 19],
+'attempts': [1, 3, 2, 3, 2, 3, 1, 1, 2, 1],
+'qualify': ['yes', 'no', 'yes', 'no', 'no', 'yes', 'yes', 'no', 'no', 'yes']}
+labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+Expected Output:
+Rows where score between 15 and 20 (inclusive):                        
+   attempts       name qualify  score                                  
+c         2  Katherine     yes   16.5                                
+f         3    Michael     yes   20.0                                 
+j         1      Jonas     yes   19.0
+
+
+4) Write a Pandas program to calculate the sum of the examination attempts by the students.
+Sample Python dictionary data and list labels:
+exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael', 'Matthew', 'Laura', 'Kevin', 'Jonas'],
+'score': [12.5, 9, 16.5, np.nan, 9, 20, 14.5, np.nan, 8, 19],
+'attempts': [1, 3, 2, 3, 2, 3, 1, 1, 2, 1],
+'qualify': ['yes', 'no', 'yes', 'no', 'no', 'yes', 'yes', 'no', 'no', 'yes']}
+labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+ 
+Expected Output:
+Sum of the examination attempts by the students:                     
+19
+
+
+5) Write a Pandas program to append a new row 'k' to data frame with given values for each column. Now delete the new row and return the original DataFrame.
+Sample Python dictionary data and list labels:
+exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael', 'Matthew', 'Laura', 'Kevin', 'Jonas'],
+'score': [12.5, 9, 16.5, np.nan, 9, 20, 14.5, np.nan, 8, 19],
+'attempts': [1, 3, 2, 3, 2, 3, 1, 1, 2, 1],
+'qualify': ['yes', 'no', 'yes', 'no', 'no', 'yes', 'yes', 'no', 'no', 'yes']}
+labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+Values for each column will be:
+name : "Suresh", score: 15.5, attempts: 1, qualify: "yes", label: "k"
+Expected Output:
+Append a new row:
+
+Print all records after insert a new record:
+   attempts       name qualify  score
+a         1  Anastasia     yes   12.5
+b         3       Dima      no    9.0
+......
+j         1      Jonas     yes   19.0
+k         1     Suresh     yes   15.5
+
+Delete the new row and display the original  rows:
+   attempts       name qualify  score
+a         1  Anastasia     yes   12.5
+b         3       Dima      no    9.0
+........
+i         2      Kevin      no    8.0
+j         1      Jonas     yes   19.0 
+
+
+
+6)Write a Pandas program to sort the DataFrame first by 'name' in descending order, then by 'score' in ascending order.
+Sample Python dictionary data and list labels:
+exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael', 'Matthew', 'Laura', 'Kevin', 'Jonas'],
+'score': [12.5, 9, 16.5, np.nan, 9, 20, 14.5, np.nan, 8, 19],
+'attempts': [1, 3, 2, 3, 2, 3, 1, 1, 2, 1],
+'qualify': ['yes', 'no', 'yes', 'no', 'no', 'yes', 'yes', 'no', 'no', 'yes']}
+labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+Values for each column will be:
+name : "Suresh", score: 15.5, attempts: 1, qualify: "yes", label: "k"
+ 
+Expected Output:
+Orginal rows:
+        name  score  attempts qualify
+a  Anastasia   12.5         1     yes
+b       Dima    9.0         3      no
+c  Katherine   16.5         2     yes
+d      James    NaN         3      no
+e      Emily    9.0         2      no
+f    Michael   20.0         3     yes
+g    Matthew   14.5         1     yes
+h      Laura    NaN         1      no
+i      Kevin    8.0         2      no
+j      Jonas   19.0         1     yes
+Sort the data frame first by 'name' in descending order, then by 'score' in ascending order:
+        name  score  attempts qualify
+f    Michael   20.0         3     yes
+g    Matthew   14.5         1     yes
+h      Laura    NaN         1      no
+i      Kevin    8.0         2      no
+c  Katherine   16.5         2     yes
+j      Jonas   19.0         1     yes
+d      James    NaN         3      no
+e      Emily    9.0         2      no
+b       Dima    9.0         3      no
+a  Anastasia   12.5         1     yes
+
+
+7)Write a Pandas program to change the name 'James' to 'Suresh' in name column of the DataFrame.
+Sample Python dictionary data and list labels:
+exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael', 'Matthew', 'Laura', 'Kevin', 'Jonas'],
+'score': [12.5, 9, 16.5, np.nan, 9, 20, 14.5, np.nan, 8, 19],
+'attempts': [1, 3, 2, 3, 2, 3, 1, 1, 2, 1],
+'qualify': ['yes', 'no', 'yes', 'no', 'no', 'yes', 'yes', 'no', 'no', 'yes']}
+labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+Expected Output:
+Change the name 'James' to \?Suresh\?:                                
+   attempts       name qualify  score                                  
+a         1  Anastasia     yes   12.5                                  
+b         3       Dima      no    9.0                                  
+.......                               
+i         2      Kevin      no    8.0                                 
+j         1      Jonas     yes   19.0
+
+
+
+8). Write a Pandas program to get list from DataFrame column headers.
+Sample Python dictionary data and list labels:
+exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael', 'Matthew', 'Laura', 'Kevin', 'Jonas'],
+'score': [12.5, 9, 16.5, np.nan, 9, 20, 14.5, np.nan, 8, 19],
+'attempts': [1, 3, 2, 3, 2, 3, 1, 1, 2, 1],
+'qualify': ['yes', 'no', 'yes', 'no', 'no', 'yes', 'yes', 'no', 'no', 'yes']}
+labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+Expected Output:
+['attempts', 'name', 'qualify', 'score']
+
+
+9)  Write a Pandas program to convert index in a column of the given dataframe.
+Sample data:
+Original DataFrame
+   attempts       name qualify  score
+0         1  Anastasia     yes   12.5
+1         3       Dima      no    9.0
+2         2  Katherine     yes   16.5
+....
+7         1      Laura      no    NaN
+8         2      Kevin      no    8.0
+9         1      Jonas     yes   19.0
+
+After converting index in a column:
+   index  attempts       name qualify  score
+0      0         1  Anastasia     yes   12.5
+1      1         3       Dima      no    9.0
+2      2         2  Katherine     yes   16.5
+....
+8      8         2      Kevin      no    8.0
+9      9         1      Jonas     yes   19.0
+
+Hiding index:
+index  attempts       name qualify  score
+    0         1  Anastasia     yes   12.5
+    1         3       Dima      no    9.0
+    2         2  Katherine     yes   16.5
+ .....
+    8         2      Kevin      no    8.0
+    9         1      Jonas     yes   19.0
